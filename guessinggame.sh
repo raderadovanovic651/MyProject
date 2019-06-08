@@ -4,11 +4,11 @@ make -B README.md
 function reading {
 while [[ q -lt n ]] || [[ q -gt n ]]
 do
-	echo "Enter number of files, please!"
+	echo "Enter number of files!"
 read n
 if [[ $n -eq $q ]]
 then
-	echo "Congratulations, you have entered expected number!"
+	echo "Congratulations, you have entered correct number!"
 fi
 if [[ $n -lt $q ]]
 then
